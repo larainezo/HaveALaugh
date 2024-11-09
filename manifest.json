@@ -1,0 +1,16 @@
+{
+    "name": "HaveALaugh",
+    "version": "1.0.1",
+    "manifest_version": 3,
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",  
+      "default_icon": "logo.png"
+    },
+    "background": {
+      "service_worker": "background.js" 
+    },
+    "icons": {
+      "128": "logo.png"
+    }
+  }
